@@ -44,3 +44,13 @@
 .achive span:nth-of-type(2) {
     color: var(--orange);
 }
+
+@media screen and (max-width: 480px) {
+    .exper {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 17rem;
+        margin-bottom: 10rem;
+    }
+}

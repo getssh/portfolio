@@ -57,7 +57,7 @@ div .s-blur1 {
     left: -18rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .services {
         flex-direction: column;
         gap: 5rem;

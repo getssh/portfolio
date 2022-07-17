@@ -5,13 +5,14 @@ import LinkedIn from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/portfl.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
+import {Link} from 'react-scroll'
 import './Intro.css'
 
 function Intro() {
@@ -32,10 +33,15 @@ function Intro() {
                 more.
                 </span>
             </div>
+            <Link
+            spy={true}
+            to='Contact'
+            smooth={true}>
             <button className='button i-button'>Hire Me</button>
+            </Link>
             <div className="i-icons">
-                <img src={Github} alt="" />
-                <img src={LinkedIn} alt="" />
+                <a href="https://www.github.com/getssh" target="_blank"><img src={Github} alt="" /></a>
+                <a href="https://www.linkedin.com/in/getayawkal-tamrat" target="_blank"><img src={LinkedIn} alt="" /></a>
                 <img src={Instagram} alt="" />
             </div>
         </div>

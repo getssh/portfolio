@@ -35,16 +35,16 @@
     /* list-style-type: none; */
 }
 
-.n-list>ul>li:hover {
+.n-list>ul li:hover {
     cursor: pointer;
     color: var(--orange);
 }
 
-n-button {
+.n-button {
     flex: 2;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .n-list {
         display: none;
     }

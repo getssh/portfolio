@@ -7,6 +7,7 @@ import Humble from '../../img/humble.png'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
+import {Link} from 'react-scroll'
 
 function Services() {
   const transition = {duration: 1, type: 'spring'}
@@ -20,10 +21,11 @@ function Services() {
             <span style={{color: darkMode ? 'white' : ''}}>My Awesome</span>
             <span>services</span>
             <span>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            <br/>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+            I provid services related with Front end web design and development Including UI/UX
+            <br/>and developing/building a functional and good looking website or web app
+            <br/>for your personal or organization uses.
             </span>
-            <a href="#">
+            <a href="../../img/Resume_GetayawkalT.pdf">
               <button className='button s-button'>Download CV</button>
             </a>
             <div className='blur s-blur1' style={{background: '#ABF1FF94'}}></div>
