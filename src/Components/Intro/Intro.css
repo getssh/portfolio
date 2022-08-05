@@ -35,9 +35,9 @@
 }
 
 .i-right>:nth-child(3) {
-    transform: scale(0.9);
+    transform: scale(0.8);
     left: 13%;
-    bottom: 10%;
+    bottom: 11%;
 }
 /*the original*/
 /* .i-right>:nth-child(3) {
@@ -120,6 +120,16 @@
 
     .i-right .blur {
         display: none;
+    }
+
+    .i-right>:nth-child(3) {
+        transform: scale(0.8);
+        left: 13%;
+        bottom: 9%;
+    }
+
+    .float1 {
+        margin-top: 200px;
     }
 
     .floating-div:nth-of-type(1) {

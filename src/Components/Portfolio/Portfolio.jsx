@@ -4,7 +4,7 @@ import {Swiper, SwiperSlide, SwiperSlides} from 'swiper/react'
 import Sidebar from "../../img/netflixx.png";
 import Ecommerce from "../../img/dicegame.png";
 import HOC from "../../img/memegene.png";
-import MusicApp from "../../img/musicapp.png";
+import QuizApp from "../../img/quizApp.png";
 import 'swiper/css'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -39,8 +39,10 @@ const Portfolio = () => {
                 <h3 className='port-discription' style={dark}>Kids Dice Game</h3>
             </SwiperSlide>
             <SwiperSlide>
-                <img src={MusicApp} alt="" />
-                <h3 className='port-discription' style={dark}>Music App</h3>
+                <a href='https://getssh.github.io/quiztime/' target='_blank'>
+                    <img src={QuizApp} alt="" />
+                </a>
+                <h3 className='port-discription' style={dark}>Quiz App</h3>
             </SwiperSlide>
             <SwiperSlide>
                 <a href='https://getssh.github.io/meme_generator/' target='_blank'>

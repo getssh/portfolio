@@ -4,6 +4,7 @@ import Card from '../Card/Card'
 import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
+import Resume from './resume.pdf'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
@@ -25,7 +26,7 @@ function Services() {
             <br/>and developing/building a functional and good looking website or web app
             <br/>for your personal or organization uses.
             </span>
-            <a href="../../img/Resume_GetayawkalT.pdf">
+            <a href={Resume}>
               <button className='button s-button'>Download CV</button>
             </a>
             <div className='blur s-blur1' style={{background: '#ABF1FF94'}}></div>

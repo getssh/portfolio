@@ -1,10 +1,10 @@
 import React from 'react'
 import './Works.css'
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Upwork from "../../img/jslogo.png";
+import Fiverr from "../../img/css.png";
+import Amazon from "../../img/reactlogo.png";
+import Shopify from "../../img/python.png";
+import Facebook from "../../img/mysql.png";
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 import {motion} from 'framer-motion'
@@ -18,16 +18,18 @@ const Works = () => {
   return (
     <div className="works" id='Works'>
         <div className="awesome">
-            <span style={{color: darkMode ? '#fff' : ''}}>Works for all these</span>
-            <span>Brands & Clinets</span>
+            <span style={{color: darkMode ? '#fff' : ''}}>Some of the tools &</span>
+            <span>Programing languages</span>
             <span style={{color : darkMode ? '#aaaaaa' : ''}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            I use diffrent tools and programing languages to give you a
             <br/>
-            incididunt ut labore et dolore magna aliqua. Ut enim ad
+            quality web development out put. Those tools are currently one of
             <br/>
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            the most popular languages and frameworks. using latest updates
             <br/>
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            will benefit your company, as it's more user friendly and easy
+            <br/>
+            to access for customers.
             </span>
             <Link
             spy={true}

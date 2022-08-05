@@ -5,7 +5,7 @@ import LinkedIn from '../../img/linkedin.png'
 import Instagram from '../../img/instagram.png'
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/portfl.png";
+import boy from "../../img/portprofile.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -28,8 +28,8 @@ function Intro() {
             <div className="i-name">
                 <span style={{color : darkMode ? 'white' : ''}}>Hey! I am</span>
                 <span>Getayawkal Tamrat</span>
-                <span style={{color : darkMode ? '#aaaaaa' : ''}}>Front-end Developer (a Junior one for now)
-                with a 9 month expriance with Html, CSS, JavaScript, React and
+                <span style={{color : darkMode ? '#aaaaaa' : ''}}>Front-end web Developer
+                with a 10 month expriance with Html, CSS, JavaScript, React and
                 more.
                 </span>
             </div>
@@ -61,7 +61,7 @@ function Intro() {
             whileInView={{left: '68%'}}
             transition={transition}
             style={{top:'-4%', left:'68%'}}
-            className='floating-div'
+            className='floating-div float1'
             >
                 <FloatingDiv image={crown} txt1="Web" txt2="Developer"/>
             </motion.div>
@@ -72,7 +72,7 @@ function Intro() {
             style={{top:'18rem', left:'0rem'}}
             className='floating-div'
             >
-                <FloatingDiv image={thumbup} txt1="Best Design" txt2="Web Apps"/>
+                <FloatingDiv className='float2' image={thumbup} txt1="Best Design" txt2="Web Apps"/>
             </motion.div>
             <div className='blur' style={{
                 background: "rgb(238 210 255)"}}></div>
