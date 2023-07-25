@@ -39,15 +39,15 @@ function Services() {
             style={{left: '14rem'}}>
               <Card
                 emoji={HeartEmoji}
-                heading={'Design'}
-                detail={'Figma, Adobe xd, Photoshop'}
+                heading={'Database'}
+                detail={'Postgres, MySQL'}
               />
             </motion.div>
             <div style={{top: '12rem', left: '-4rem'}}>
               <Card
                 emoji={Glasses}
                 heading={'Developer'}
-                detail={'HTML, CSS, Javascript, React'}
+                detail={'HTML, CSS, Javascript, React Redux, Ruby on Rails'}
               />
             </div>
             <div style={{top: '19rem', left: '12rem'}}>

@@ -14,7 +14,6 @@ const Footer = () => {
             <span>gtamrat33@gmail.com</span>
             <div className="f-icons">
                 <a href="https://www.linkedin.com/in/getayawkal-tamrat" target="_blank"><Linkedin color='white' size='3rem'/></a>
-                <a href="https://www.facebook.com/getayawkaltamrat" target="_blank"><Facebook color='white' size='3rem'/></a>
                 <a href="https://www.github.com/getssh" target="_blank"><Github color='white' size='3rem'/></a>
             </div>
         </div>
