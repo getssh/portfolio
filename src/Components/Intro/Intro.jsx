@@ -28,10 +28,14 @@ function Intro() {
             <div className="i-name">
                 <span style={{color : darkMode ? 'white' : ''}}>Hey! I am</span>
                 <span>Getayawkal Tamrat</span>
-                <span style={{color : darkMode ? '#aaaaaa' : ''}}>Front-end web Developer
-                with a 10 month expriance with Html, CSS, JavaScript, React and
-                more.
-                </span>
+                <p style={{color : darkMode ? '#aaaaaa' : '', fontSize: '0.8rem'}}>
+                  Getayawkal Tamrat, a web developer in Addis Ababa, Ethiopia, attended Microverse, an online full-stack
+                  development training program. He's passionate about software development and cloud computing, aiming to 
+                  become a full-stack web developer and AWS solution architect. With a strong computer science foundation 
+                  from ALX and AWS skills from Udacity, he's a motivated self-learner and team player. In his free time, he 
+                  enjoys gaming, family time, and staying updated on new technologies. Getayawkal is a rising star in software 
+                  development, confident in achieving his goals.
+                </p>
             </div>
             <Link
             spy={true}
