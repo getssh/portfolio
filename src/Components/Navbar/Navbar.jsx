@@ -6,7 +6,7 @@ import Services from '../Services/Services'
 
 const Navbar = () => {
   return (
-    <div className="n-wrapper">
+    <div className="n-wrapper" style={{position: "fixed", backgroundColor: "#a0a8b0", padding:"0 4rem", zIndex: "10000", width: "80%"}}>
         <div className="n-left">
             <div className="n-name">Getayawkal</div>
             <Toggle />
