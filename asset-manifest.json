@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8bf02fca.css",
-    "main.js": "/portfolio/static/js/main.b23325fb.js",
+    "main.css": "/portfolio/static/css/main.2079e7f8.css",
+    "main.js": "/portfolio/static/js/main.2b935d95.js",
     "static/media/movis_app.png": "/portfolio/static/media/movis_app.77386856b6504c68b2ba.png",
     "static/media/docapp.png": "/portfolio/static/media/docapp.19a84c75a4df3b3b6e05.png",
     "static/media/python.png": "/portfolio/static/media/python.8f3feae884756ecb8ef4.png",
@@ -20,11 +20,11 @@
     "static/media/Vector2.png": "/portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
     "static/media/glasses.png": "/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/portfolio/index.html",
-    "main.8bf02fca.css.map": "/portfolio/static/css/main.8bf02fca.css.map",
-    "main.b23325fb.js.map": "/portfolio/static/js/main.b23325fb.js.map"
+    "main.2079e7f8.css.map": "/portfolio/static/css/main.2079e7f8.css.map",
+    "main.2b935d95.js.map": "/portfolio/static/js/main.2b935d95.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bf02fca.css",
-    "static/js/main.b23325fb.js"
+    "static/css/main.2079e7f8.css",
+    "static/js/main.2b935d95.js"
   ]
 }
