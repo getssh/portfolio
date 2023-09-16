@@ -50,6 +50,7 @@ const Modal = ({ isOpen, onClose, project }) => {
     height: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
     zIndex: '1000',
+    overflowY: 'auto',
   };
 
   const contentStyle = {
@@ -65,6 +66,7 @@ const Modal = ({ isOpen, onClose, project }) => {
     textAlign: 'center',
     borderRadius: '8px',
     boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.2)',
+    overflowY: 'auto',
   };
 
   const closeButtonStyle = {
@@ -83,11 +85,11 @@ const Modal = ({ isOpen, onClose, project }) => {
     <div style={modalStyle}>
       <div style={contentStyle}>
         <div style={closeButtonStyle} onClick={onClose}>
-          <span>X</span>
+          <button>X</button>
         </div>
         <h2>{project.title}</h2>
         <img src={project.imageUrl} alt={project.title} style={imageStyle} />
-        <p>{project.description}</p>
+        <p style={{color: "#000"}}>{project.description}</p>
         <div>
           <a href={project.seeLive} target='_blank' style={{margin: "0rem 0.5rem"}}><button className="button s-button">See Live</button></a>
           <a href={project.seeSource} target='_blank' style={{margin: "0rem 0.5rem"}}><button className="button s-button">See Source</button></a>
@@ -138,7 +140,7 @@ const Portfolio = () => {
               </div>
               <button
                 style={{ margin: '1rem 0rem 0rem 4rem' }}
-                className="button s-button"
+                className="button s-button d-button"
                 onClick={() => openModal(project)}
               >
                 See Details

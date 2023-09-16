@@ -6,14 +6,14 @@ import Services from '../Services/Services'
 
 const Navbar = () => {
   return (
-    <div className="n-wrapper" style={{position: "fixed", backgroundColor: "#a0a8b0", padding:"0 4rem", zIndex: "10000", width: "80%"}}>
+    <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">Getayawkal</div>
             <Toggle />
         </div>
         <div className="n-right">
             <div className="n-list">
-                <ul style={{listStyleType: 'none'}}>
+                <ul style={{listStyleType: 'none',}}>
 
                     <Link
                     spy={true}

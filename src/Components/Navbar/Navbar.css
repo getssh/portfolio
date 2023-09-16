@@ -2,6 +2,12 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
+
+  position: fixed;
+  background-color: #a0a8b0;
+  padding: 0 4rem;
+  z-index: 1000;
+  width: 80%;
 }
 
 .n-left {
@@ -44,11 +50,19 @@
     flex: 2;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .n-list {
         display: none;
     }
     button {
         width: 150px;
+    }
+    .n-wrapper {
+      position: relative;
+      background-color: transparent;
+    }
+
+    .n-name {
+      display: none;
     }
 }
