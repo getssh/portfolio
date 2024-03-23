@@ -29,12 +29,10 @@ function Intro() {
                 <span style={{color : darkMode ? 'white' : ''}}>Hey! I am</span>
                 <span>Getayawkal Tamrat</span>
                 <p style={{color : darkMode ? '#aaaaaa' : '', fontSize: '0.8rem'}}>
-                  Getayawkal Tamrat, a web developer in Addis Ababa, Ethiopia, attended Microverse, an online full-stack
-                  development training program. He's passionate about software development and cloud computing, aiming to 
-                  become a full-stack web developer and AWS solution architect. With a strong computer science foundation 
-                  from ALX and AWS skills from Udacity, he's a motivated self-learner and team player. In his free time, he 
-                  enjoys gaming, family time, and staying updated on new technologies. Getayawkal is a rising star in software 
-                  development, confident in achieving his goals.
+                Passionate Web Developer with 2 years of experience. Skilled in languages and frameworks(HTML, CSS, JavaScript, React, NodeJS, Ruby on Rails), 
+                building responsive, functional web apps. Problem-solving mindset, AWS practitioner, Solution architect and staying current with tech trends. 
+                Detail-oriented, delivering exceptional user experiences. Collaborative team player seeking innovative web development opportunities. 
+                Proud to have graduated in the top 5% of the ALX Tech program and been selected for the Gold Fellowship program
                 </p>
             </div>
             <Link
