@@ -5,11 +5,19 @@ import MoviesApp from "../../img/movis_app.png";
 import Travel from "../../img/space_travler.png";
 import Crypto from "../../img/cripto_app.png";
 import Doctor from "../../img/docapp.png";
+import Task from '../../img/taskmanager.png'
 import 'swiper/css'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 
 const projects = [
+  {
+    title: "Task Manager",
+    imageUrl: Task,
+    description: "This project is designed to help users manage their tasks efficiently, providing a seamless experience from task creation to tracking and deletion. Built using the MERN stack (MongoDB, Express, React, Node.js), this task manager offers a robust set of features to streamline your task management process.",
+    seeLive: 'https://task-manager-client-blush.vercel.app/',
+    seeSource: 'https://github.com/getssh/task_manager',
+  },
   {
     title: "Doctor Appointment Booking",
     imageUrl: Doctor,
