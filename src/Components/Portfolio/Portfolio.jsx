@@ -6,6 +6,7 @@ import Travel from "../../img/space_travler.png";
 import Crypto from "../../img/cripto_app.png";
 import Doctor from "../../img/docapp.png";
 import Task from '../../img/taskmanager.png'
+import CHAT from '../../img/etchat.png'
 import 'swiper/css'
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
@@ -17,6 +18,13 @@ const projects = [
     description: "This project is designed to help users manage their tasks efficiently, providing a seamless experience from task creation to tracking and deletion. Built using the MERN stack (MongoDB, Express, React, Node.js), this task manager offers a robust set of features to streamline your task management process.",
     seeLive: 'https://task-manager-client-blush.vercel.app/',
     seeSource: 'https://github.com/getssh/task_manager',
+  },
+  {
+    title: "RealTime Chat App",
+    imageUrl: CHAT,
+    description: "Real-time chat application that allows users to send messages, view online statuses of other users, and authenticate using a secure signup and login system. Built with the MERN stack, the app uses Socket.IO for real-time communication, Tailwind CSS with DaisyUI for styling, and Zustand with Context API for state management.",
+    seeLive: 'https://et-chat.onrender.com/',
+    seeSource: 'https://github.com/getssh/chatApp',
   },
   {
     title: "Doctor Appointment Booking",
