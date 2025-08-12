@@ -83,19 +83,19 @@ export default function Projects() {
   };
 
   return (
-    <section id="projects" className="max-w-6xl mx-auto py-16">
-      <motion.div 
+    <section id="projects" className="max-w-6xl mx-auto py-16" aria-labelledby="projects-heading">
+      <motion.header 
         ref={sectionRef}
         initial="initial"
         animate={sectionInView ? "animate" : "initial"}
         variants={fadeInUp}
         className="text-center mb-12"
       >
-        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">Projects</h2>
+        <h2 id="projects-heading" className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">Projects</h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
           Here are some of the projects I've worked on. Each one represents a unique challenge and learning experience.
         </p>
-      </motion.div>
+      </motion.header>
       
       {/* Carousel Container */}
       <div className="relative px-4 sm:px-8 lg:px-16">

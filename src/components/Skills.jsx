@@ -13,19 +13,19 @@ export default function Skills() {
   const { ref: skillsRef, isInView: skillsInView } = useScrollAnimation();
 
   return (
-    <section id="skills" className="max-w-6xl mx-auto py-16">
-      <motion.div 
+    <section id="skills" className="max-w-6xl mx-auto py-16" aria-labelledby="skills-heading">
+      <motion.header 
         ref={sectionRef}
         initial="initial"
         animate={sectionInView ? "animate" : "initial"}
         variants={fadeInUp}
         className="text-center mb-12"
       >
-        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
+        <h2 id="skills-heading" className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
           A comprehensive overview of my technical skills and expertise across different domains.
         </p>
-      </motion.div>
+      </motion.header>
       
       <motion.div 
         ref={skillsRef}

@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://getayawkal.com/sitemap.xml
+
+Disallow: /admin/
+Disallow: /private/
+
+Allow: /src/
+Allow: /public/
+Allow: /assets/
+
+# Crawl delay
+Crawl-delay: 1

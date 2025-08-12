@@ -26,46 +26,52 @@ export default function Hero() {
             variants={fadeInUp}
             className="lg:col-span-3 space-y-8"
           >
-            <div className="space-y-4">
+            <header className="space-y-4">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white">
                 Hey! I am
               </h1>
               <h2 className="text-5xl sm:text-6xl lg:text-6xl font-extrabold text-orange-500 dark:text-orange-400 leading-tight">
                 Getayawkal Tamrat
               </h2>
-            </div>
+            </header>
             
-            <motion.p 
+            <motion.article 
               ref={contentRef}
               initial="initial"
               animate={contentInView ? "animate" : "initial"}
               variants={fadeInUp}
               className="text-lg sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl"
             >
-              A results-driven Full-Stack Developer with over 3 years of experience delivering high-impact web applications. I specialize in building scalable, responsive, and user-centric solutions using JavaScript, React, Node.js, Ruby on Rails, and the MERN stack. I'm an AWS-certified practitioner with knowledge in cloud-native architectures, microservices, and serverless technologies.
-
-              <br/><br/>I've contributed to real-world solutions like smart event registration systems and AI-powered university platforms, which improved user experience by up to 20%. A top 5% graduate of the ALX Tech program and a Gold Fellow, I thrive in collaborative, agile environments and enjoy mentoring junior developers. Whether it's front-end finesse or back-end logic, I bring a problem-solving mindset, clean code, and a passion for innovation.
-            </motion.p>
+              <p>
+                A results-driven Full-Stack Developer with over 3 years of experience delivering high-impact web applications. I specialize in building scalable, responsive, and user-centric solutions using JavaScript, React, Node.js, Ruby on Rails, and the MERN stack. I'm an AWS-certified practitioner with knowledge in cloud-native architectures, microservices, and serverless technologies.
+              </p>
+              <p>
+                I've contributed to real-world solutions like smart event registration systems and AI-powered university platforms, which improved user experience by up to 20%. A top 5% graduate of the ALX Tech program and a Gold Fellow, I thrive in collaborative, agile environments and enjoy mentoring junior developers. Whether it's front-end finesse or back-end logic, I bring a problem-solving mindset, clean code, and a passion for innovation.
+              </p>
+            </motion.article>
             
-            <motion.div 
+            <motion.nav 
               initial="initial"
               animate={contentInView ? "animate" : "initial"}
               variants={fadeInUp}
               className="flex flex-col sm:flex-row gap-4"
+              aria-label="Main navigation"
             >
               <button 
                 onClick={() => scrollToSection('contact')} 
                 className="px-8 py-4 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-full font-semibold shadow-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-200 transform hover:scale-105"
+                aria-label="Navigate to contact section"
               >
                 Hire Me
               </button>
               <button 
                 onClick={() => scrollToSection('projects')} 
                 className="px-8 py-4 border-2 border-orange-500 text-orange-500 dark:text-orange-400 rounded-full font-semibold hover:bg-orange-500 hover:text-white transition-all duration-200 transform hover:scale-105"
+                aria-label="Navigate to projects section"
               >
                 View Projects
               </button>
-            </motion.div>
+            </motion.nav>
           </motion.div>
 
           <motion.div 
@@ -86,7 +92,14 @@ export default function Hero() {
                 <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-800 rounded-3xl shadow-2xl flex items-center justify-center">
                   <div className="text-center">
                     <div className="w-60 h-60 bg-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <img src="/profile7.png" alt="Profile" className="w-full h-full object-cover rounded-full" />
+                      <img 
+                        src="/profile7.png" 
+                        alt="Getayawkal Tamrat - Full-Stack Developer and AWS Certified Practitioner" 
+                        className="w-full h-full object-cover rounded-full" 
+                        loading="eager"
+                        width="240"
+                        height="240"
+                      />
                     </div>
                   </div>
                 </div>
