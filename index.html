@@ -3,11 +3,135 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    
+    <title>Getayawkal Tamrat - Full-Stack Developer | AWS Certified | Portfolio</title>
+    <meta name="title" content="Getayawkal Tamrat - Full-Stack Developer | AWS Certified | Portfolio" />
+    <meta name="description" content="Full-Stack Developer with 3+ years experience in React, Node.js, Ruby on Rails, and MERN stack. AWS certified practitioner specializing in scalable web applications and cloud-native architectures." />
+    <meta name="keywords" content="Full-Stack Developer, React Developer, Node.js Developer, Ruby on Rails, MERN Stack, AWS Certified, Web Development, JavaScript, Frontend Developer, Backend Developer, Portfolio" />
+    <meta name="author" content="Getayawkal Tamrat" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://getayawkal.com" />
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://getayawkal.com" />
+    <meta property="og:title" content="Getayawkal Tamrat - Full-Stack Developer | AWS Certified | Portfolio" />
+    <meta property="og:description" content="Full-Stack Developer with 3+ years experience in React, Node.js, Ruby on Rails, and MERN stack. AWS certified practitioner specializing in scalable web applications and cloud-native architectures." />
+    <meta property="og:image" content="https://getayawkal.com/og-image.jpg" />
+    <meta property="og:site_name" content="Getayawkal Tamrat Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://getayawkal.com" />
+    <meta property="twitter:title" content="Getayawkal Tamrat - Full-Stack Developer | AWS Certified | Portfolio" />
+    <meta property="twitter:description" content="Full-Stack Developer with 3+ years experience in React, Node.js, Ruby on Rails, and MERN stack. AWS certified practitioner specializing in scalable web applications and cloud-native architectures." />
+    <meta property="twitter:image" content="https://getayawkal.com/og-image.jpg" />
+    
+    <meta name="theme-color" content="#f97316" />
+    <meta name="msapplication-TileColor" content="#f97316" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Getayawkal Tamrat Portfolio" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Getayawkal Tamrat",
+      "jobTitle": "Full-Stack Developer",
+      "description": "Full-Stack Developer with over 3 years of experience delivering high-impact web applications",
+      "url": "https://getayawkal.com",
+      "image": "https://getayawkal.com/profile7.png",
+      "sameAs": [
+        "https://linkedin.com/in/getayawkal-tamrat",
+        "https://github.com/getssh"
+      ],
+      "knowsAbout": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Ruby on Rails",
+        "MERN Stack",
+        "AWS",
+        "Cloud Computing",
+        "Web Development",
+        "Full-Stack Development"
+      ],
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "AWS Certification",
+          "recognizedBy": "Amazon Web Services"
+        }
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "ALX Tech Program"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Getayawkal Tamrat Portfolio",
+      "url": "https://getayawkal.com",
+      "logo": "https://getayawkal.com/logo.png",
+      "description": "Professional portfolio showcasing full-stack development work and expertise",
+      "sameAs": [
+        "https://linkedin.com/in/getayawkal-tamrat",
+        "https://github.com/getssh"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Getayawkal Tamrat Portfolio",
+      "url": "https://getayawkal.com",
+      "description": "Professional portfolio website showcasing full-stack development projects and skills",
+      "author": {
+        "@type": "Person",
+        "name": "Getayawkal Tamrat"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://getayawkal.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
   </body>
 </html>
