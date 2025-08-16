@@ -63,7 +63,7 @@ export default function Contact() {
       >
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">Let's Connect</h2>
         <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-          I’m always open to new opportunities, collaborations, and conversations. Let’s connect.
+          I’m always open to new opportunities, collaborations, and conversations.
         </p>
       </motion.div>
       
